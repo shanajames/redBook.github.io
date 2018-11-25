@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: none;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: none;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 20%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 80%;
+    background-color: none;
+    padding: 20px 10px ;
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: none;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card1,{
+    background-color:none;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background:none;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding:0px;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav .dropdown{
+        float: none;
+        width: 100%;
+    }
+}
+.jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+}
+form{
+    margin-left: 30%;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a {
+    color:none;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-nav li.active a{
+    color: black;
+    font-size: 20px;
+}
+.main-nav li.activa{
+    color: black;
+    font-size: 30px;
+    margin-right:200px;
+}
+.main-nav a:hover {
+    background-color:none;
+    color: black;
+}
+
+.dr{
+    float: right;
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: right;
+    width: 50%;
+    padding: 10px 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding:10px 10px;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: none;
+  }
+  .avatar {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right:5px;
+    padding-top:5px;
+}
+
+.avatar1 {
+
+    width: 50px;
+    height: 80px;
+    padding-right:5px;
+    padding-top:5px;
+}
+.avatar3 {
+
+    width: 80px;
+    height: 200px;
+    margin-bottom: 20%;
+}
+.avatarq {
+
+    width: 170px;
+    height: 250px;
+    padding-right:5px;
+    padding-top:5px;
+    position: relative;
+    top: -50px;
+    -webkit-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+    
+}
+.avatarq1 {
+
+    width: 170px;
+    height: 250px;
+    padding-right:5px;
+    padding-top:5px;
+    position: relative;
+    bottom: -40px;
+    -webkit-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
+#redbook:hover {
+    background-color:bisque;
+    color:white;
+}
+.button2 {
+    background-color:white; 
+    color: black; 
+    border: 2px solid hotpink;
+    border-radius: 18px;
+    box-shadow: 5px 6px #888888;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
